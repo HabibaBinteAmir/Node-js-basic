@@ -1,0 +1,327 @@
+*{
+    margin: 0% ;
+    padding: 0%;
+}
+body{
+    background-color: #F5F8FF;
+}
+.inter{
+     font-family: "Inter", sans-serif;
+}
+.ralway{
+     font-family: "Raleway", sans-serif;
+}
+
+.header{
+    margin: 0% auto;
+     width: 1180px;
+}
+.nav{
+    width: 1180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position:absolute;
+    z-index: 1;
+    padding-top: 30px;
+}
+
+.main{
+    background-image: url(./Assets/Hero-bg.png);
+    padding: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+}
+.logo{
+    font-size: 34px;
+    color: #4E47FF;
+  font-weight: 700;
+}
+.btn{
+    color: white;
+    background-color: #4E47FF;
+    padding: 14px  25px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+}
+.banner_title{
+     font-family: "Raleway", sans-serif;
+     font-weight: 700;
+     font-size: 65px;
+     color: #252432;
+     padding-left: 10px;
+     padding-right: 10px;
+     margin-bottom: 50px;
+}
+.action{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1140px;
+    margin: 0% auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.actino_title{
+    color: #252432;
+    font-size: 34px;
+    font-weight: 700;
+     font-family: "Raleway", sans-serif;
+}
+.action_para{
+    font-family: "Raleway", sans-serif;
+      font-size: 20px;
+      color: rgba(37, 36, 50, 0.548);
+      padding-top: 20px;
+      padding-bottom: 20px;
+      margin-right: 350px;
+
+}
+.action_img img{
+    /* background-image: url(./Assets/wc-mini.png);
+    padding-top: 50px;
+    padding-bottom: 50px; */
+    border-radius: 20px;
+
+}
+.user{
+    background-color: #D6DDED;
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.user_title{
+    color: #252432;
+     font-size: 38px;
+    font-weight: 700;
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 30px;
+
+}
+.user_count{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 800px;
+    margin: 0% auto;
+}
+.count{
+    color: #4E47FF;
+    font-size: 80px;
+    font-weight: 700;
+   font-family: "Inter", sans-serif;
+}
+.user_discription{
+    color: rgba(0, 0, 0, 0.583);
+    font-size: 20px;
+   font-family: "Inter", sans-serif;
+}
+/* reviewPart start */
+.review_part{
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.reviews{
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 20px;
+     background-color: rgba(255, 255, 255, 0.5);
+}
+.review_title{
+      color: #252432;
+     font-size: 38px;
+    font-weight: 700;
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.title{
+    color: #1E1E1E;
+     font-size: 16px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.review_discription{
+      color: #1E1E1E;
+     font-size: 16px;
+  font-family: "Inter", sans-serif;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.imges{
+    display: flex;
+   
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.imges img {
+    border-radius: 50%;
+     margin-right: 20px;
+}
+.review_items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    padding: 20px;
+}
+.img_text{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 500;
+     font-family: "Inter", sans-serif;
+}
+.date{
+    color: #B3B3B3;
+}
+.quick_start{
+    max-width: 1000px;
+    text-align: center;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 80px;
+}
+.quick_title{
+          color: #000000;
+     font-size: 50px;
+     font-weight: 700;
+  font-family: "Raleway", sans-serif;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.quick_discription{
+       color: rgba(0, 0, 0, 0.516);
+     font-size: 16px;
+   font-family: "Inter", sans-serif;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.btn2{
+margin-top: 20px;
+margin-bottom: 20px;
+}
+.quick_img{
+    background-image: url(./Assets/wc-big.png);
+    width: 900px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    margin: 0% auto;
+    border-radius: 30px;
+    
+}
+/* log in form starts  */
+.log_in_form{
+    max-width: 1180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+     width: 100%;
+     margin-top: 30px;
+     margin-bottom: 50px;
+}
+.log_in_text{
+   width: 50%;
+        color: #000000;
+     font-size: 97px;
+     font-weight: 700;
+  font-family: "Raleway", sans-serif;
+
+
+}
+.log_in_infos{
+width: 50%;
+}
+.info_title{
+    color: #000000;
+    font-weight: 500;
+    font-size: 18px;
+     font-family: "Inter", sans-serif;
+   
+   
+
+}
+input {
+    color: red;
+    font-weight: 500;
+    font-size: 18px;
+     font-family: "Inter", sans-serif;
+     padding: 20px;
+     border-radius: 10px;
+    border: none;
+     width: 90%;
+     margin-top: 20px;
+     margin-bottom: 20px;
+}
+.btn3{
+    padding: 20px;
+    width: 90%;
+}
+.input_message{
+    padding-top: 44px;
+    padding-bottom: 44px;
+}
+/* footer part start */
+footer{
+    width: 100%;
+    background-color: #fff;
+    margin: 0 auto;
+    text-align: center;
+   padding-top: 50px;
+   padding-bottom: 50px;
+}
+.footer_logo{
+     color: #4E47FF;
+    font-weight: 700;
+    font-size: 100px;
+     font-family: "Inter", sans-serif;  
+}
+.footer_text{
+    color: #8987A1;
+    font-size: 18px;
+     font-family: "Inter", sans-serif;  
+    margin-left: 380px;
+    margin-right: 380px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    line-height: 30px;
+}
+.footer_menu ul{
+    display: flex;
+    gap: 30px;
+    color: #8987A1;
+      font-family: "Inter", sans-serif;  
+    align-items: center;
+    list-style-type: none;
+    justify-content: center;
+    margin: 20px 20px;
+}
+
+/* footer part end */

@@ -5,4 +5,4 @@ function sub(a ,b) {
     console.log(a - b);
     
 };
-module.exports = {sum,sub};
+export {sum ,sub};

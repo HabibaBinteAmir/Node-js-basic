@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 90%;
+    margin:  0 auto;
+}
+.work_sans {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+.orange{
+    color: #FF900E;
+}
+.banner_color{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+.title{
+    /* color: #131313; */
+    font-weight: 700;
+}
+.para_color{
+    color: #727272;
+    font-weight: 400;
+}
+.menu_color{
+    color: #424242;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.brand{
+    font-size: 45px;
+}
+.menu ul li { 
+    list-style: none;
+}
+.menu ul li a {
+   text-decoration: none;
+   margin-right: 75px;
+   font-size: 18px;
+   font-weight: 500;
+}
